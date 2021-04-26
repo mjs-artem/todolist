@@ -1,5 +1,6 @@
 import React from "react";
+import { TodosContainers } from "./containers/todos/containers";
 
-const App = () => <div>My first awesome application from APP! )))</div>;
+const App = () => <TodosContainers />;
 
 export default App;
